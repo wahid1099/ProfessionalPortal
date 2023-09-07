@@ -3,3 +3,28 @@ https://medium.com/@adamwojnicki/lets-build-a-simple-responsive-navigation-bar-w
 for icons
 
 https://fontawesome.com/v4/icons/
+
+#how to connect with github in cmd
+1.git config --global user.name "Your user name"
+To confirm that you have set your Git username correctly, type this:
+
+git config --global user.name
+
+2.git config --global user.email "youremail@gmail.com"
+To confirm that you have set your Git email correctly, type this:
+
+git config --global user.email
+
+Here they are:
+
+git init lets you initialize Git in your folder.
+
+git add Readme.md lets you add the Readme file, while git add . lets you add all files in the present folder.
+
+git commit stores the added files. Use -m for message followed by the actual message.
+
+git branch creates a new branch which is a new version of the repository as it appears when added, and -M to move the name to main.
+
+git remote add origin finally connects the local folder to the repository on GitHub. It is followed by the repository's link.
+
+git push -u origin main pushes the code to GitHub. The -u flag creates a tracking reference for the branch, and origin main puts the code in the main branch.
