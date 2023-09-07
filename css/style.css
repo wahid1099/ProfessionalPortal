@@ -273,3 +273,62 @@ background-color: #f8f9fa; */
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   transform: translateY(-5px) scale(1.005) translateZ(0);
 }
+
+.featured_courses {
+  background-color: #f8f9fa;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.featured_courses h2 {
+  text-align: center;
+  margin-top: 100px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.featured_courses_cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.featured_courses_card {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(118, 115, 115);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  align-items: center;
+  justify-content: center;
+  height: 440px;
+  font-weight: bolder;
+  color: black;
+  width: 20%;
+  margin-left: 10px;
+}
+.featured_courses_card img {
+  width: 290px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.featured_courses_card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.featured_courses_card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
