@@ -1,0 +1,275 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav li {
+  list-style: none;
+  margin: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navlink {
+  list-style: none;
+  margin: 0;
+}
+.navlink a {
+  color: #000;
+
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.logo_img {
+  width: 100px;
+  height: 83px;
+}
+.login_btn {
+  border-radius: 10px;
+  background: #09035a;
+  width: 167px;
+  height: 50px;
+  margin-left: 10px !important;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  border-color: #fff transparent;
+}
+.search_btn {
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  margin-left: 10px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.search_btn:hover,
+.search_btn:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.search_btn:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.search_btn:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.register-btn {
+  border-radius: 10px;
+  background: #189e7e;
+  width: 167px;
+  height: 50px;
+
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  border-color: #fff transparent;
+}
+
+/* 
+background-color: #f8f9fa; */
+
+.top_banner {
+  background-color: #f8f9fa;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  justify-content: space-around;
+}
+.banner_content {
+  align-items: center;
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 60px;
+  font-family: Product Sans;
+}
+
+.banner_image {
+  align-items: center;
+  float: right;
+  width: 50%;
+}
+
+.banner_image img {
+  width: 520px;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #888787;
+
+  box-shadow: 2px 5px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.icon {
+  padding-left: 7px;
+  padding-top: 12px;
+  min-width: 15px !important;
+  text-align: center;
+}
+
+.input-field {
+  width: 200px;
+  padding: 13px;
+
+  border-radius: 2px;
+  border: 1px solid #e3e0e0;
+}
+.platform_main {
+  background-color: #f8f9fa;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.platform_main h2 {
+  text-align: center;
+  margin-top: 100px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.platform_cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.platform_card {
+  /* Add shadows to create the "card" effect */
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 5px 17px 10px 0px rgba(83, 83, 83, 0.25);
+  width: 318px;
+  height: 158px;
+  transition: 0.3s;
+  border-radius: 20px; /* 5px rounded corners */
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.platform_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+.platform_card i {
+  width: 100px !important;
+  text-align: center;
+  margin-top: 20px;
+  color: #000 !important;
+}
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.featured_jobs {
+  background-color: #f8f9fa;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.featured_jobs h2 {
+  text-align: center;
+  margin-top: 100px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.featured_jobs_cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.featured_jobs_card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 5px 17px 10px 0px rgba(83, 83, 83, 0.25);
+
+  height: 240px;
+  transition: 0.3s;
+  border-radius: 20px; /* 5px rounded corners */
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+.featured_jobs_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
