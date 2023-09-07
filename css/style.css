@@ -10,6 +10,22 @@ header {
   align-items: center;
   justify-content: space-around;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 80px;
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -238,17 +254,6 @@ background-color: #f8f9fa; */
   padding-top: 40px;
 }
 
-.featured_jobs h2 {
-  text-align: center;
-  margin-top: 100px;
-  color: #000;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
 .featured_jobs_cards {
   display: flex;
   justify-content: space-around;
@@ -278,17 +283,6 @@ background-color: #f8f9fa; */
   background-color: #f8f9fa;
   padding-bottom: 40px;
   padding-top: 40px;
-}
-.featured_courses h2 {
-  text-align: center;
-  margin-top: 100px;
-  color: #000;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
 
 .featured_courses_cards {
@@ -331,4 +325,44 @@ background-color: #f8f9fa; */
 
 .featured_courses_card:active {
   transform: scale(0.95) rotateZ(1.7deg);
+}
+.trusted_by {
+  align-items: center;
+  background-color: #f8f9fa;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card_do_we_do {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #1d1934;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #f4f4f4;
+}
+
+.footer_main {
+  width: 20%;
+  margin-left: 50px;
+}
+.social_media_footer {
+  display: flex;
+}
+.social_media_footer img {
+  margin-right: 30px;
+  color: #fff;
+}
+.content_footer {
+  width: 22%;
 }
