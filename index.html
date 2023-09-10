@@ -12,8 +12,10 @@
     />
   </head>
   <body>
+    <div id="header"></div>
+
     <!-- top menu bar start -->
-    <header>
+    <!-- <header>
       <h1 class="logo">
         <img src="images/logomain.png" class="logo_img" />
       </h1>
@@ -28,7 +30,7 @@
         <button class="login_btn">Login</button>
         <button class="register-btn">Register</button>
       </div>
-    </header>
+    </header> -->
     <!-- top menu bar end -->
 
     <!-- top banner start -->
@@ -309,65 +311,13 @@
       <img src="images/trustedby.png" />
     </div>
     <!--trusted_by end -->
-    <!-- footer start -->
-    <div class="footer">
-      <!-- footer main  -->
-      <div class="footer_main">
-        <img src="images/logomain.png" class="logo_img" />
-        <p>
-          Best Job Site in Bd.Packed With a lot opportunity.First Time in
-          Bangladesh with so much features.
-        </p>
-        <div class="social_media_footer">
-          <a href="#"> <img src="images/facebook.png" /></a>
-          <a href="#"> <img src="images/twetter.png" /></a>
-          <a href="#"> <img src="images/linkedin.png" /></a>
-          <a href="#"> <img src="images/insta.png" /></a>
-        </div>
-      </div>
-      <!-- footer main  -->
-
-      <!-- other content  -->
-      <div class="content_footer">
-        <h5>About Us</h5>
-        <hr />
-        <a href="#"> <p>Home</p></a>
-        <a href="#"> <p>About Us</p></a>
-        <a href="#"> <p>Terms & Conditions</p></a>
-        <a href="#"> <p>Privacy Policy</p></a>
-        <a href="#"> <p>Feedback</p></a>
-        <a href="#"> <p>Accessibility Statement</p></a>
-        <a href="#"> <p>International Partners</p></a>
-      </div>
-      <!-- other content  -->
-      <!-- other content  -->
-      <div class="content_footer">
-        <h5>Job Seekrers</h5>
-        <hr />
-        <a href="#"> <p>Edit Resume</p></a>
-        <a href="#"> <p>Vedio Resume</p></a>
-        <a href="#"> <p>Free Courses</p></a>
-        <a href="#"> <p>Paid Courses</p></a>
-        <a href="#"> <p>Skill Assesments</p></a>
-        <a href="#"> <p>Carrier Counseling</p></a>
-        <a href="#"> <p>FAQ</p></a>
-      </div>
-      <!-- other content  -->
-
-      <!-- other content  -->
-      <div class="content_footer">
-        <h5>Employers</h5>
-        <hr />
-        <a href="#"> <p>Create Account</p></a>
-        <a href="#"> <p>Paid Partership</p></a>
-        <a href="#"> <p>Post a Job</p></a>
-        <a href="#"> <p>Products/Service</p></a>
-        <a href="#"> <p>Post a Job</p></a>
-        <a href="#"> <p>FAQ</p></a>
-      </div>
-      <!-- other content  -->
-    </div>
-
-    <!-- footer end -->
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("./Pages/Menu.html");
+        $("#footer").load("/Pages/Footer.html");
+      });
+    </script>
   </body>
 </html>

@@ -16,7 +16,7 @@ a {
 }
 h2 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
   color: #000;
   text-align: center;
   font-family: Roboto;
@@ -24,7 +24,7 @@ h2 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 .nav {
   display: flex;
