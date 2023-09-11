@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Not Found</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <h2>404 Not Found</h2>
+    <div class="main_404">
+      <div class="content_404">
+        <img src="images/404.jpg" style="max-width: 50%" />
+        <h3>The page you are looking for no found!</h3>
+      </div>
+      <div class="image_404">
+        <img src="images/meme2.jpg" alt="image not found" />
+      </div>
+    </div>
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("Menu.html");
+        $("#footer").load("Footer.html");
+      });
+    </script>
+  </body>
+</html>
