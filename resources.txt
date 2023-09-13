@@ -28,3 +28,28 @@ git branch creates a new branch which is a new version of the repository as it a
 git remote add origin finally connects the local folder to the repository on GitHub. It is followed by the repository's link.
 
 git push -u origin main pushes the code to GitHub. The -u flag creates a tracking reference for the branch, and origin main puts the code in the main branch.
+
+
+1.Create a branch with your name:
+
+# create new branch
+
+git checkout -b new-branch-name;(sadman/zarir)
+
+# go to existing branch
+
+git checkout existing-branch-name;
+
+# check what branch is currently being used
+
+git branch;
+
+#2.Before start coding pull code from main branch:
+
+# git pull origin main
+
+# then check if your are in your branch or not:git branch
+
+3.Create a new file don't edit other files create your own html and css file and code there after that push the code to your branch
+
+# git push zarir("your branch name")
