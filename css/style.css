@@ -266,7 +266,7 @@ background-color: #f8f9fa; */
   background: #fff;
   box-shadow: 5px 17px 10px 0px rgba(83, 83, 83, 0.25);
 
-  height: 240px;
+  height: 300px;
   transition: 0.3s;
   border-radius: 20px; /* 5px rounded corners */
   width: 20%;
@@ -386,4 +386,96 @@ background-color: #f8f9fa; */
   width: 90%;
   border-radius: 20px;
   margin-bottom: 20px;
+}
+.find_jobs_search_box {
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  font-family: Product Sans;
+}
+select {
+  border: none;
+  padding: 13px 45px;
+  border-radius: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.find_jobs_input-icons i {
+  position: absolute;
+}
+
+.find_jobs_input-icons {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #888787;
+
+  box-shadow: 2px 5px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.find_jobsicon {
+  padding-left: 7px;
+  padding-top: 12px;
+  min-width: 15px !important;
+  text-align: center;
+}
+
+.find_jobsinput-field {
+  width: 480px;
+  padding: 13px;
+
+  border-radius: 2px;
+  border: 1px solid #e3e0e0;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+.pagination a:nth-child(2) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.center {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.browse_jobs_card {
+  border-radius: 20px;
+  background: #e8e5e5ff;
+  box-shadow: 5px 17px 10px 0px rgba(83, 83, 83, 0.25);
+
+  height: 300px;
+  transition: 0.3s;
+  border-radius: 20px; /* 5px rounded corners */
+  width: 30%;
+  text-align: center;
+  padding: 10px;
 }
