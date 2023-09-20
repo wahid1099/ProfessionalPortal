@@ -61,3 +61,7 @@ hr {
 .register_img img {
   width: 100%;
 }
+.error {
+  color: red;
+  font-weight: bold;
+}
