@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="main_register">
+      <div class="register_form">
+        <form action="action_page.php">
+          <div class="container">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Email"
+              required
+            />
+
+            <label for="name"><b>Name</b></label>
+            <input
+              type="text"
+              placeholder="Enter Name"
+              name="username"
+              id="name"
+              required
+            />
+
+            <label for="Phone"><b>Phone</b></label>
+            <input
+              type="text"
+              placeholder="Enter Phone"
+              name="mopbile"
+              id="Phone"
+              required
+            />
+
+            <label for="Adress"><b>Adress</b></label>
+            <input
+              type="text"
+              placeholder="Enter Adress"
+              name="localtion"
+              id="Adress"
+              required
+            />
+
+            <label for="psw"><b>Password</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              id="psw"
+              required
+            />
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input
+              type="password"
+              placeholder="Repeat Password"
+              name="psw-repeat"
+              id="psw-repeat"
+              required
+            />
+
+            <hr />
+
+            <button type="submit" class="registerbtn">Register</button>
+          </div>
+
+          <div class="container signin">
+            <p>
+              Already have an account?
+              <a href="LoginPage.html"
+                ><span class="signintext"> Sign in</span></a
+              >.
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="register_img">
+        <img src="images/signupbanner.jpg" />
+      </div>
+    </div>
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("Menu.html");
+        $("#footer").load("Footer.html");
+      });
+    </script>
+  </body>
+</html>

@@ -161,6 +161,7 @@ background-color: #f8f9fa; */
   align-items: center;
   float: right;
   width: 50%;
+  border-radius: 20px;
 }
 
 .banner_image img {
