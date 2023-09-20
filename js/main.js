@@ -69,4 +69,6 @@ document
     ) {
       alert("Your account has been created Succesfully!.");
     }
+
+    document.getElementById("validationForm").reset();
   });
