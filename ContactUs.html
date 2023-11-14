@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/contactstyle.css">
 </head>
 <body>
+    <div id="header"></div>
     <section class="contacts">
         <div class="content">
             <h2>Contact us</h2>
@@ -62,5 +63,13 @@
             </div>
         </div>
     </section>
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("Menu.html");
+        $("#footer").load("Footer.html");
+      });
+    </script>
 </body>
 </html>
