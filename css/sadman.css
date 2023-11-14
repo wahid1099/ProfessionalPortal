@@ -11,10 +11,7 @@ body {
     justify-content: space-around;
   }
   
-  .date {
-    font-style: italic;
-    margin-top: 0;
-  }
+ 
   
   .job-content {
     max-width: 800px;
@@ -24,7 +21,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  img {
+  .img {
     width: 100%;
     height: auto;
     border-radius: 8px;
